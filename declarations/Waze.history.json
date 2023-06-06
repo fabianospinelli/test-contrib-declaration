@@ -1,0 +1,30 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://www.waze.com/en/legal/tos",
+      "select": [
+        ".col-md-9"
+      ],
+      "validUntil": "2022-05-27T00:42:33Z"
+    },
+    {
+      "fetch": "https://www.waze.com/en/legal/tos",
+      "select": [
+        ".page"
+      ],
+      "remove": [
+        ".article-survey-container"
+      ],
+      "validUntil": "2023-01-22T18:44:13Z"
+    }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.waze.com/en/legal/privacy",
+      "select": [
+        ".col-md-9"
+      ],
+      "validUntil": "2023-01-22T18:44:16Z"
+    }
+  ]
+}

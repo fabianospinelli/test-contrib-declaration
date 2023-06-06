@@ -1,0 +1,17 @@
+{
+  "name": "Crunchyroll",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.crunchyroll.com/tos",
+      "select": [
+        ".legal"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.crunchyroll.com/en-gb/privacy/index.html",
+      "select": [
+        ".privacy"
+      ]
+    }
+  }
+}
